@@ -68,7 +68,7 @@
 				<h3 class="total_title">查询结果</h3>
 				<ul>
 					<li><input type="button" value="新增" class="addition"
-						data-url="./UserEdit.html"
+						data-url="${pageContext.request.contextPath}/user/edit.do"
 						onclick="Common.showPage(this);" /></li>
 				</ul>
 			</div>

@@ -24,4 +24,23 @@ public class UserController {
         System.out.println(user);
         return null;
     }
+
+    @RequestMapping("manage")
+    public String manage(){
+        return "User/UserManage";
+    }
+    @RequestMapping("info")
+    public String info(){
+        return "User/UserInfo";
+    }
+
+    @RequestMapping("salary")
+    public String salary(){
+        return "User/UserEdit";
+    }
+
+    @RequestMapping("edit")
+    public String edit(){
+        return "User/UserEdit";
+    }
 }
