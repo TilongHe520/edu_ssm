@@ -45,6 +45,11 @@
 							data-url="${pageContext.request.contextPath}/user/manage.do">用户管理</a>
 						</li>
 						<li class="navContent">
+							<a href="#" class="showNav" id="employee" data-name="main_iframe"
+							   onclick="Common.switchNavigation(this);"
+							   data-url="${pageContext.request.contextPath}/employee/manage.do">员工管理</a>
+						</li>
+						<li class="navContent">
 							<a href="#" class="showNav" id="finance" data-name="main_iframe"
 							onclick="Common.switchNavigation(this);"
 							data-url="${pageContext.request.contextPath}/user/salary.do">工资管理</a>

@@ -11,7 +11,7 @@
 <html>
 <body>
     <h2 align="center" >用户登录页面</h2>
-    <form action="./Default.jsp" method="post">
+    <form action="Default.jsp" method="post">
         <table align="center" border="1">
             <tr>
                 <td>用户名:</td>

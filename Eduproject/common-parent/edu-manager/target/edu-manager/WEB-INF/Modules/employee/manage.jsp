@@ -16,7 +16,7 @@
 						<li class="nav_current">
 							<a href="#" class="subNavigation" id="A001010"
                                data-name="common_iframe" onclick="Common.switchNavigation(this);"
-							   data-url="./UserInfo.html">用户信息</a>
+							   data-url="${pageContext.request.contextPath}/user/info.do">用户信息</a>
 						</li>
 						<li class="nav_current">
 							<a href="#" class="subNavigation" id="A001011"

@@ -29,6 +29,7 @@ public class UserController {
     public String manage(){
         return "User/UserManage";
     }
+
     @RequestMapping("info")
     public String info(){
         return "User/UserInfo";

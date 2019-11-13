@@ -7,17 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d6f37cd-3dd8-450e-81db-5b21bb7ae935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/java/com/hetl/edu/web/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/employee/manage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/user/UserEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/user/UserInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/user/UserUpdate.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/edu-dao/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/src/main/java/com/hetl/edu/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/java/com/hetl/edu/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/Default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserEdit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/employee/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/employee/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/user/UserManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/User/UserUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/employee/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/target/classes/com/hetl/edu/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/classes/com/hetl/edu/web/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/Default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/Default.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/Login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/User/UserManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/Modules/User/UserManage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/classes/com/hetl/edu/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/classes/com/hetl/edu/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/lib/edu-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/edu-manager/target/edu-manager/WEB-INF/lib/edu-dao-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,11 +71,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu-dao/target/classes/com/hetl/edu/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/edu-manager/src/main/webapp/WEB-INF/Modules/employee" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\practice\EduProject\Eduproject\common-parent\edu-manager\src\main\webapp\WEB-INF\Modules\employee" />
+      <recent name="D:\practice\EduProject\Eduproject\common-parent\edu-manager\src\main\webapp\WEB-INF\Modules\user" />
       <recent name="D:\practice\EduProject\Eduproject\common-parent\edu-dao\target\classes\com\hetl\edu\mapper" />
       <recent name="D:\practice\EduProject\Eduproject\common-parent\edu-manager\src\main\resources" />
     </key>
@@ -184,6 +195,14 @@
       <workItem from="1573030903636" duration="144000" />
       <workItem from="1573033950560" duration="1197000" />
       <workItem from="1573091056469" duration="783000" />
+      <workItem from="1573095395648" duration="596000" />
+      <workItem from="1573119274837" duration="317000" />
+      <workItem from="1573524350893" duration="860000" />
+      <workItem from="1573526689290" duration="260000" />
+      <workItem from="1573552093077" duration="1324000" />
+      <workItem from="1573642941581" duration="1236000" />
+      <workItem from="1573644659569" duration="826000" />
+      <workItem from="1573645542683" duration="876000" />
     </task>
     <servers />
   </component>
