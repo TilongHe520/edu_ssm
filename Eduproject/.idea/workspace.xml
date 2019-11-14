@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5aeba0-f4a7-4a43-87a7-a0f5ba446048" name="Default Changelist" comment="" />
+    <list default="true" id="0e5aeba0-f4a7-4a43-87a7-a0f5ba446048" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/webapp/WEB-INF/Modules/information.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/controller/PaperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/dao/PaperDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/pojo/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/service/PaperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/service/impl/PaperServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/mapper/PaperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/hetl/edu/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/src/main/java/com/hetl/edu/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/target/classes/com/hetl/edu/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/target/classes/com/hetl/edu/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-parent/edu-manager/target/edu-manager/WEB-INF/classes/com/hetl/edu/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-parent/edu-manager/target/edu-manager/WEB-INF/classes/com/hetl/edu/web/controller/UserController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TBdboNZFGz9cX2qrbGD4cDNih2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common-parent" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -39,10 +72,22 @@
       <option name="presentableId" value="Default" />
       <updated>1572937496565</updated>
       <workItem from="1572937499890" duration="86000" />
+      <workItem from="1573721386160" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -22,7 +22,7 @@ public class UserController {
     public String find(Integer id){
         User user = userService.findById(id);
         System.out.println(user);
-        return null;
+        return "information";
     }
 
     @RequestMapping("manage")
