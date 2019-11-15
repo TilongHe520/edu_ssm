@@ -39,6 +39,21 @@
 </div>
 <br><br>
 <h3>
+    <form class="form-horizontal" action="${pageContext.request.contextPath }/login.action" method="post">
+        <span class="heading">用户登录</span>
+        <div class="form-group">
+            <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="用户名">
+            <i class="fa fa-user"></i>
+        </div>
+        <div class="form-group help">
+            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="密　码">
+            <i class="fa fa-lock"></i>
+            <a href="#" class="fa fa-question-circle"></a>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default">登录</button>
+        </div>
+    </form>
     <a href="${path }/paper/allPaper">点击进入管理页面</a>
 </h3>
 </body>
