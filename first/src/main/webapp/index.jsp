@@ -51,6 +51,7 @@
             <a href="#" class="fa fa-question-circle"></a>
         </div>
         <div class="form-group">
+            <button type="button" class="btn btn-default" onclick="window.location.href='/register'">注册</button>
             <button type="submit" class="btn btn-default">登录</button>
         </div>
     </form>

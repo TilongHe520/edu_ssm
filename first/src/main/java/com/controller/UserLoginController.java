@@ -4,6 +4,7 @@ import com.pojo.User;
 import com.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -24,6 +25,17 @@ public class UserLoginController {
 
     @RequestMapping(value = "/toLogin.action")
     public String toLogin() {
-        return "login";
+        return "login/login";
+    }
+
+    @RequestMapping("/register")
+    public String register(){
+        return "login/register";
+    }
+    @RequestMapping("/doRegister")
+    public String doRegister(User user, Model model){
+        System.out.println(user.getUsername());
+        userInfoService.registerUser(user);
+        return "login/success1";
     }
 }

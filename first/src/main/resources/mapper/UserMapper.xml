@@ -15,4 +15,9 @@
         </where>
     </select>
 
+    <!--用户注册-->
+    <insert id="registerUser">
+        insert into user (username,password) values (#{username},#{password})
+    </insert>
+
 </mapper>

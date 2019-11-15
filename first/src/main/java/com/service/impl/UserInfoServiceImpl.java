@@ -15,4 +15,9 @@ public class UserInfoServiceImpl implements UserInfoService {
     public User queryUser(User user){
         return userDao.queryUser(user);
     }
+
+    @Override
+    public void registerUser(User user){
+        userDao.registerUser(user.getUsername(),user.getPassword());
+    }
 }
