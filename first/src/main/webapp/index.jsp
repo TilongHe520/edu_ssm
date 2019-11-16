@@ -39,7 +39,7 @@
 </div>
 <br><br>
 <h3>
-    <form class="form-horizontal" action="${pageContext.request.contextPath }/login.action" method="post">
+    <form class="form-horizontal" action="${pageContext.request.contextPath }/login" method="post">
         <span class="heading">用户登录</span>
         <div class="form-group">
             <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="用户名">

@@ -11,15 +11,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserLoginController {
     @Autowired
     private UserInfoService userInfoService;
-    @RequestMapping(value = "/login.action")
+    @RequestMapping(value = "/login")
     public String login(User user){
         User userInfo = userInfoService.queryUser(user);
         System.out.println(userInfo);
         if(userInfo != null){
-            return "allPaper";
+            return "login/success1";
         }
         else {
-            return "addPaper";
+            return "login/fail";
         }
     }
 

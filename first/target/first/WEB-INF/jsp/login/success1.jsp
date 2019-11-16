@@ -21,9 +21,9 @@
 </div>
 this is success page!
 
-<a href="${pageContext.request.contextPath}/user/anotherpage">点我跳到另一个页面</a>
+<a href="${pageContext.request.contextPath}/anotherpage">点我跳到另一个页面</a>
 
-<form action="${pageContext.request.contextPath}/user/login">
+<form action="${pageContext.request.contextPath}/login">
     <table>
         <tr>
             <td><input type="submit" value="退出登录"></td>
