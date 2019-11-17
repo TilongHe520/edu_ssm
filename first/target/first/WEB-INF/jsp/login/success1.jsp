@@ -21,7 +21,7 @@
 </div>
 this is success page!
 
-<a href="${pageContext.request.contextPath}/anotherpage">点我跳到另一个页面</a>
+<a href="${pageContext.request.contextPath}/paper/allPaper">点我跳到另一个页面</a>
 
 <form action="${pageContext.request.contextPath}/login">
     <table>

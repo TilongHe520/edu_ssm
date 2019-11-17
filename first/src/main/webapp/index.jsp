@@ -55,7 +55,6 @@
             <button type="submit" class="btn btn-default">登录</button>
         </div>
     </form>
-    <a href="${path }/paper/allPaper">点击进入管理页面</a>
 </h3>
 </body>
 
