@@ -46,6 +46,8 @@ public class UserLoginController {
     public String doRegister(User user, Model model){
         System.out.println(user.getUsername());
         userInfoService.registerUser(user);
-        return "login/success1";
+        List<Paper> list = paperService.queryAllPaper();
+        model.addAttribute("list", list);
+        return "allPaper";
     }
 }

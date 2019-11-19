@@ -40,8 +40,13 @@
     <div class="row">
         <div class="col-md-4 column">
             <a class="btn btn-primary" href="${path}/paper/toAddPaper">新增</a>
+            <form action="${path}/paper/findByName" method="post">
+                <input type="text" name="search" placeholder="根据论文ID查询" style=" border: 1px solid #E6E6E6;;height:28px;width:120px;">
+                <button class="layui-btn layui-btn-sm">搜索</button>
+            </form>
         </div>
     </div>
+
     <div class="row clearfix">
         <div class="col-md-12 column">
             <table class="table table-hover table-striped">

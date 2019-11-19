@@ -53,4 +53,9 @@ public class PaperController {
         model.addAttribute("paper", paper);
         return "redirect:/paper/allPaper";
     }
+    @RequestMapping("/findByName")
+    public String findByName(){
+
+        return "login/login";
+    }
 }
