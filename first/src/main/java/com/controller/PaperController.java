@@ -7,8 +7,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/paper")
@@ -53,9 +56,17 @@ public class PaperController {
         model.addAttribute("paper", paper);
         return "redirect:/paper/allPaper";
     }
-    @RequestMapping("/findByName")
-    public String findByName(){
 
-        return "login/login";
+
+    @RequestMapping("/findByName")
+    public String findByName(@RequestParam(defaultValue="1") Integer currentPage,
+                             HttpServletRequest request, Map<String,Object> map,Model model){
+        String name=request.getParameter("search");
+        System.out.println(name);
+
+        List<Paper> list = paperService.findByName(name);
+        System.out.println(list.size());
+        model.addAttribute("list", list);
+        return "allPaper";
     }
 }

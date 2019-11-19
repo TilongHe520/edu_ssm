@@ -33,4 +33,15 @@
         FROM paper
     </select>
 
+    <!--模糊查询-->
+    <select id="findByName" resultMap="paperResultMap">
+        SELECT * from paper
+        <where>
+            <if test="name != null and name !=''">
+                and name LIKE CONCAT(CONCAT('%',#{name},'%'))
+            </if>
+        </where>
+        ORDER BY paper_id
+    </select>
+
 </mapper>

@@ -37,6 +37,11 @@ public class PaperServiceImpl implements PaperService {
     @Override
     public List<Paper> queryAllPaper() {
         return paperDao.queryAllPaper();
-
     }
+    //查询
+    @Override
+    public List<Paper> findByName(String str){
+        return paperDao.findByName(str);
+    }
+
 }

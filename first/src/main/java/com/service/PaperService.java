@@ -13,4 +13,6 @@ public interface PaperService {
     Paper queryById(long id);
 
     List<Paper> queryAllPaper();
+
+    List<Paper> findByName(String str);
 }
